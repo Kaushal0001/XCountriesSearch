@@ -13,14 +13,15 @@ const Search = () => {
             <div style={{ display: "flex", justifyContent: "center", backgroundColor: "#d3d3d3" }}>
                 <input 
                     type="text" 
-                    placeholder="Type to search for a country..." 
+                    placeholder="Search for country..." 
                     onChange={handleInputChange}
                     style={{ 
                         width: "50%", 
                         margin: "1rem", 
                         border: "1px solid #ccc", 
                         fontSize: "16px", 
-                        borderRadius: "5px" 
+                        borderRadius: "5px",
+                        padding: "10px"
                     }} 
                 />
             </div>
